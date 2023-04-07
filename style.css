@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin    : 0;
+    padding   : 0;
     box-sizing: border-box;
 }
 
@@ -11,29 +11,29 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size  : 2.5rem;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size  : 1.8rem;
     font-weight: 600;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size  : 1.4rem;
     font-weight: 800;
 }
 
 h4 {
-    font-size: 1.1rem;
+    font-size  : 1.1rem;
     font-weight: 600;
 }
 
 h5 {
-    font-size: 1rem;
+    font-size  : 1rem;
     font-weight: 400;
-    color: #1d1d1d;
+    color      : #1d1d1d;
 }
 
 h6 {
@@ -41,16 +41,16 @@ h6 {
 }
 
 button {
-    font-size: 0.8rem;
-    font-weight: 700;
-    outline: none;
-    border: none;
+    font-size       : 0.8rem;
+    font-weight     : 700;
+    outline         : none;
+    border          : none;
     background-color: #1d1d1d;
-    color: aliceblue;
-    padding: 13px 30px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: 0.3s ease;
+    color           : aliceblue;
+    padding         : 13px 30px;
+    text-transform  : uppercase;
+    cursor          : pointer;
+    transition      : 0.3s ease;
 }
 
 button:hover {
@@ -59,13 +59,13 @@ button:hover {
 
 .navbar {
     font-size: 16px;
-    top: 0;
-    left: 0;
+    top      : 0;
+    left     : 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    padding: 0 20px;
-    color: black;
+    padding   : 0 20px;
+    color     : black;
     transition: 0.3s ease;
 }
 
@@ -77,23 +77,69 @@ button:hover {
 }
 
 .navbar i {
-    font-size: 1.2rem;
-    padding: 0 7px;
-    cursor: pointer;
+    font-size  : 1.2rem;
+    padding    : 0 7px;
+    cursor     : pointer;
     font-weight: 500;
-    transition: 0.3s ease;
+    transition : 0.3s ease;
+}
+
+#bar {
+    font-size  : 1.5rem;
+    padding    : 7px;
+    cursor     : pointer;
+    font-weight: 500;
+    transition : 0.3s ease;
+    color      : black;
+}
+
+#bar:hover,
+#bar.active {
+    color: #fff;
+}
+
+
+/*Mobile Nav*/
+@media only screen and (max-width: 991px) {
+
+    body>nav>div>button:hover,
+    body>nav>div>button:focus {
+        background-color: #fb774b;
+    }
+
+    body>nav>div>button:hover #bar,
+    body>nav>div>button:focus #bar {
+        color: #fff;
+    }
+
+    #navbarSupportedContent>ul {
+        margin         : 1rem;
+        justify-content: flex-end;
+        align-items    : flex-end;
+        text-align     : right;
+    }
+
+    #navbarSupportedContent>ul>li:nth-child(n)>a {
+        padding: 10px 0;
+    }
+}
+
+
+.navbar-light .navbar-toggler {
+    border : none;
+    outline: none;
 }
 
 #home {
-    background-image: url("img/back.jpg");
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
+    background-image   : url("img/back.jpg");
+    width              : 100%;
+    height             : 100vh;
+    background-size    : cover;
     background-position: top 60px center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display            : flex;
+    flex-direction     : column;
+    justify-content    : center;
+    align-items        : center;
 }
 
 #home span {

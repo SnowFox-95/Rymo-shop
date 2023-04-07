@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'rymo_shop';
-  src:  url('fonts/rymo_shop.eot?b8enjk');
-  src:  url('fonts/rymo_shop.eot?b8enjk#iefix') format('embedded-opentype'),
-    url('fonts/rymo_shop.ttf?b8enjk') format('truetype'),
-    url('fonts/rymo_shop.woff?b8enjk') format('woff'),
-    url('fonts/rymo_shop.svg?b8enjk#rymo_shop') format('svg');
+  src:  url('fonts/rymo_shop.eot?j4cnes');
+  src:  url('fonts/rymo_shop.eot?j4cnes#iefix') format('embedded-opentype'),
+    url('fonts/rymo_shop.ttf?j4cnes') format('truetype'),
+    url('fonts/rymo_shop.woff?j4cnes') format('woff'),
+    url('fonts/rymo_shop.svg?j4cnes#rymo_shop') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i {
+[class^="ic_"], [class*=" ic_"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'rymo_shop' !important;
   speak: never;
@@ -25,6 +25,9 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ic_bars:before {
+  content: "\e902";
+}
 .ic_search:before {
   content: "\e900";
 }
