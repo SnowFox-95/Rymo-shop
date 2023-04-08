@@ -57,6 +57,21 @@ button:hover {
     background-color: #3a3833;
 }
 
+hr {
+    width           : 30px;
+    height          : 2px;
+    background-color: #fb774b;
+}
+
+.star {
+    padding: 10px 0;
+}
+
+.star i {
+    font-size: 0.8rem;
+    color    : goldenrod;
+}
+
 .navbar {
     font-size: 16px;
     top      : 0;
@@ -194,6 +209,7 @@ button:hover {
     align-items    : flex-start;
     text-align     : start;
 }
+
 #new .one:nth-child(2) .details {
     display        : flex;
     justify-content: center;
@@ -208,4 +224,31 @@ button:hover {
     flex-direction : column;
     align-items    : flex-end;
     text-align     : end;
+}
+
+/* Products */
+
+.product {
+    cursor       : pointer;
+    margin-bottom: 2rem;
+}
+
+.product img {
+    transition: 0.3 all;
+}
+
+.product:hover img {
+    opacity: 0.7;
+}
+
+.product .buy-btn {
+    background: #fb774b;
+    transform : translateY(20px);
+    opacity   : 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn {
+    transform: translateY(0px);
+    opacity  : 1;
 }
