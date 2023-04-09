@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'rymo_shop';
-  src:  url('fonts/rymo_shop.eot?qynrit');
-  src:  url('fonts/rymo_shop.eot?qynrit#iefix') format('embedded-opentype'),
-    url('fonts/rymo_shop.ttf?qynrit') format('truetype'),
-    url('fonts/rymo_shop.woff?qynrit') format('woff'),
-    url('fonts/rymo_shop.svg?qynrit#rymo_shop') format('svg');
+  src:  url('fonts/rymo_shop.eot?bgo4k2');
+  src:  url('fonts/rymo_shop.eot?bgo4k2#iefix') format('embedded-opentype'),
+    url('fonts/rymo_shop.ttf?bgo4k2') format('truetype'),
+    url('fonts/rymo_shop.woff?bgo4k2') format('woff'),
+    url('fonts/rymo_shop.svg?bgo4k2#rymo_shop') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ic_linkedin:before {
+  content: "\e906";
+}
+.ic_twitter:before {
+  content: "\e904";
+}
+.ic_facebook:before {
+  content: "\e905";
+}
 .ic_star:before {
   content: "\e903";
 }
