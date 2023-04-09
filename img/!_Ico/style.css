@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'rymo_shop';
+  src:  url('fonts/rymo_shop.eot?bgo4k2');
+  src:  url('fonts/rymo_shop.eot?bgo4k2#iefix') format('embedded-opentype'),
+    url('fonts/rymo_shop.ttf?bgo4k2') format('truetype'),
+    url('fonts/rymo_shop.woff?bgo4k2') format('woff'),
+    url('fonts/rymo_shop.svg?bgo4k2#rymo_shop') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rymo_shop' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic_linkedin:before {
+  content: "\e906";
+}
+.ic_twitter:before {
+  content: "\e904";
+}
+.ic_facebook:before {
+  content: "\e905";
+}
+.ic_star:before {
+  content: "\e903";
+}
+.ic_bars:before {
+  content: "\e902";
+}
+.ic_search:before {
+  content: "\e900";
+}
+.ic_shopping-basket:before {
+  content: "\e901";
+}
