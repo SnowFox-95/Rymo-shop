@@ -25,6 +25,29 @@
       .small-img-col {
         flex-basis: 24%;
       }
+
+      .sproduct select {
+        display: block;
+        padding: 5px 10px;
+      }
+
+      .sproduct input {
+        width: 50px;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+      }
+
+      .sproduct input:focus {
+        outline: none;
+      }
+
+      .buy-btn{
+        background: #fb774b;
+        opacity: 1;
+        transition: 0.3s all;
+      }
     </style>
   </head>
   <body>
@@ -103,7 +126,31 @@
             </div>
           </div>
         </div>
-        <div></div>
+        <div class="col-lg-6 col-md-12 col-12">
+          <h6>Home / T-Shirt</h6>
+          <h3 class="py-4">Men's Fashion T Shirt</h3>
+          <h2>$139.00</h2>
+          <select class="my-3">
+            <option>Select Size</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>S</option>
+            <option>L</option>
+          </select>
+          <input type="number" value="1" />
+          <button class="buy-btn">Add to Cart</button>
+          <h4 class="mt-5 mb-5">Product Details</h4>
+          <p>
+            This cotton T-shirt is a wardrobe essential. It's made from soft and
+            breathable cotton that feels comfortable against your skin. The
+            simple design features a classic round neckline and short sleeves,
+            making it easy to dress up or down. Available in a variety of sizes
+            and colors, it's a versatile and timeless piece that you can wear
+            year-round. Whether you're running errands or meeting friends for
+            coffee, this T-shirt is the perfect choice for a casual and stylish
+            look.
+          </p>
+        </div>
       </div>
     </section>
 
