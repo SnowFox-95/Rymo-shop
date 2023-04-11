@@ -23,6 +23,27 @@
         width: 100%;
         height: auto;
       }
+
+      #featured
+        > div.row.mx-auto.container
+        > nav
+        > ul
+        > li.page-item.active
+        > a {
+        background-color: #000;
+      }
+      #featured
+        > div.row.mx-auto.container
+        > nav
+        > ul
+        > li:nth-child(n):hover
+        > a {
+        background-color: coral;
+        color: #fff;
+      }
+      .pagination a {
+        color: #000;
+      }
     </style>
   </head>
   <body>
@@ -69,7 +90,7 @@
 
     <section id="featured" class="my-5 py-5">
       <div class="container mt-5 py-5">
-        <h3>Our Featured</h3>
+        <h2 class="font-weight-bold">Our Featured</h2>
         <hr />
         <p>Here you can check out our new products with fair price on rymo</p>
       </div>
@@ -334,6 +355,23 @@
           <h4 class="p-price">$92.00</h4>
           <button class="buy-btn">Buy Now</button>
         </div>
+        <nav aria-label="...">
+          <ul class="pagination mt-5">
+            <li class="page-item disabled">
+              <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item" aria-current="page">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </section>
 
