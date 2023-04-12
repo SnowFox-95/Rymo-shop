@@ -88,8 +88,7 @@ hr {
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar i:hover,
-.navbar i.active
-{
+.navbar i.active {
     color: coral;
 }
 
@@ -330,3 +329,59 @@ footer .copyright a:hover {
     color           : #fff;
     background-color: #fb774b;
 }
+
+/* Style for Shop page */
+
+.product img {
+    width : 100%;
+    height: auto;
+}
+
+#featured>div.row.mx-auto.container>nav>ul>li.page-item.active>a {
+    background-color: #000;
+}
+
+#featured>div.row.mx-auto.container>nav>ul>li:nth-child(n):hover>a {
+    background-color: coral;
+    color           : #fff;
+}
+
+.pagination a {
+    color: #000;
+}
+
+/* Style for Product cards */
+
+.small-img-group {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+}
+
+.sproduct select {
+    display: block;
+    padding: 5px 10px;
+}
+
+.sproduct input {
+    width       : 50px;
+    height      : 40px;
+    padding-left: 10px;
+    font-size   : 16px;
+    margin-right: 10px;
+}
+
+.sproduct input:focus {
+    outline: none;
+}
+
+.buy-btn {
+    background: #fb774b;
+    opacity   : 1;
+    transition: 0.3s all;
+}
+
+/* Style for Blog Page */
