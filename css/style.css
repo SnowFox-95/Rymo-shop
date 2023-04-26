@@ -403,7 +403,27 @@ footer .copyright a:hover {
 #blog-container .post:hover h3 {
     color: #fd8c66;
 }
+
 #blog-container .post h3 {
     transition: 0.3s ease;
-    cursor: pointer;
+    cursor    : pointer;
+}
+
+/* Cart */
+
+#cart-container table {
+    border-collapse: collapse;
+    width          : 100%;
+    table-layout   : fixed;
+}
+
+#cart-container table thead {
+    font-weight: 700;
+}
+
+#cart-container table thead td {
+    background: #fd8c66;
+    color     : #fff;
+    border    : none;
+    padding   : 6px 0;
 }
