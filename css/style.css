@@ -453,3 +453,7 @@ footer .copyright a:hover {
     height    : 80px;
     object-fit: cover;
 }
+
+#cart-container table tbody i {
+    color: #8d8c89;
+}
