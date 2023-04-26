@@ -410,6 +410,9 @@ footer .copyright a:hover {
 }
 
 /* Cart */
+#cart-container {
+    overflow-x: auto;
+}
 
 #cart-container table {
     border-collapse: collapse;
@@ -482,7 +485,8 @@ footer .copyright a:hover {
     height: 44px;
 }
 
-#cart-bottom .coupon input {
+#cart-bottom .coupon input,
+#cart-bottom .coupon button {
     margin: 0 0 20px 12px;
 }
 
